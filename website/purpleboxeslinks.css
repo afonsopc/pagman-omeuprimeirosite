@@ -1,0 +1,18 @@
+a:link, a:visited {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;     
+
+}
+
+a:hover {
+    background-color: rgb(121, 60, 182);
+
+}
+
+a:active {
+    background-color: rgb(87, 44, 131);
+}
