@@ -7,6 +7,7 @@ WORKDIR /home/static
 
 # Copy the static website
 COPY website .
+COPY index.html .
 
 # Run BusyBox httpd
 CMD echo "starting http server..." && busybox httpd -f -v -p 3000
