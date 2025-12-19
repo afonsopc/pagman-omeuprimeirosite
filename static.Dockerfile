@@ -6,7 +6,7 @@ USER static
 WORKDIR /home/static
 
 # Copy the static website
-COPY website .
+COPY website/* .
 COPY index.html .
 
 # Run BusyBox httpd
